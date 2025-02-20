@@ -15,13 +15,14 @@ This repository contains **small PowerShell projects**, ranging from simple to c
 
 Each project is organized into its own directory with:
 - 📜 **README.md** → A description of the project, goals, and how it works.
-- 🖥️ **Drafts of the script** (`draft-1.ps1`, `draft-2.ps1`, etc.) to show progression.
+- 🖥️ **Drafts of the script** (`xx-draft-1.ps1`, `xx-draft-2.ps1`, etc.) to show progression.
 - 🗂 **Test files** (`test-files/`) so others can try out the script.
 
 ---
 
 ## 🚀 Current Projects
 
-| 📌 **Project** | 🔹 **Description** |
-|----------------|--------------------|
+| 📌 **Project**                                                                | **Description** |
+|-------------------------------------------------------------------------------|--------------------|
 | [Basic File Management Automation](./Basic%20File%20Management%20Automation/) | A script that organizes files into `Images/` and `Documents/` subdirectories based on file type.
+| [Inactive User Accounts Audit](./Inactive%20User%20Accounts%20Audit/)         | A script that returns accounts that have over X days of inactivity.
