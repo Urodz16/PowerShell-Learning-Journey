@@ -18,15 +18,17 @@ Auditing inactive accounts helps improve security by identifying and addressing 
 1. Ensure the Active Directory module is installed and you have the necessary permissions.
 2. Run the script in PowerShell.
 3. Review the detailed list and summary of inactive accounts.
-4. (Optional, Coming Soon!) Run the test script in the `test-files/` directory, which creates 4 test users marked as inactive.
+4. (Optional, Coming Soon!) Run the test script in the `test-files/` directory, which creates 4 test users marked as inactive for easy testing.
 
 ## 🔄 Posted and Upcoming Script Versions:
 - `IUA2-draft-1.ps1` → Initial version that retrieves and filters inactive accounts with basic output.
-- `IUA2-draft-2.ps1` → Coming Soon! Improved version with User select number of inactivity days, enhanced error handling, a more detailed listing, and an initial summary.
+- `IUA2-draft-2.ps1` → Available Now! Improved version with User select number of inactivity days, enhanced error handling, a more detailed listing, and summary.
 - `IUA2-final.ps1` → Coming Later. Planned enhancements include:
   - **Enhanced Summary & Reporting:** Configure the summary to provide a detailed list and automatically email it to an address provided at the beginning.
   - **OU Filtering:** Allow the script to target a specific OU, multiple OUs (separated by commas), or the entire directory.
   - **Manager Notifications:** Ask if the summary should also be sent to all managers or selected managers of the OU to which the inactive users belong.
+  - **CSV File Creation:** Create a CSV file with the inactive users' information.
+  - **User Deletion Script:** A user deletion script that works with the created csv file to ensure prompt deletion of unnecessary accounts.
 
 ---
 Thanks for stopping by! 🖥️
